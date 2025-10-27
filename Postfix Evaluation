@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <ctype.h>
+int s[50],t=-1;
+void push(int x){s[++t]=x;}
+int pop(){return s[t--];}
+int main(){
+    char e[50];scanf("%s",e);
+    for(int i=0;e[i];i++){
+        if(isdigit(e[i])) push(e[i]-'0');
+        else{
+            int b=pop(),a=pop();
+            switch(e[i]){case '+':push(a+b);break;case '-':push(a-b);break;
+            case '*':push(a*b);break;case '/':push(a/b);}
+        }
+    }printf("%d",pop());
+}
