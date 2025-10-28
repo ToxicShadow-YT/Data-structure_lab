@@ -1,0 +1,19 @@
+Start.
+
+2. If tree is empty, create root node.
+
+3. Else compare element with current node:
+
+• If smaller → go left.
+
+• If larger → go right.
+
+Repeat until null position found, insert node.
+
+4. Inorder Traversal: Left → Root → Right
+
+5. Preorder Traversal: Root → Left → Right
+
+6. Postorder Traversal: Left → Right → Root
+
+7. Stop.
