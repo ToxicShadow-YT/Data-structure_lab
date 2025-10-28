@@ -1,0 +1,21 @@
+Start.
+
+2. Initialize front = -1, rear = -1.
+
+3. For Insert (Enqueue):
+
+• If rear == size - 1, print "Overflow".
+
+O
+
+Else increment rear, insert element.
+
+4. For Delete (Dequeue):
+
+If front == rear, print "Underflow".
+
+• Else increment front and remove element.
+
+5. For Display, print elements from front+1 to rear.
+
+6. Stop.
