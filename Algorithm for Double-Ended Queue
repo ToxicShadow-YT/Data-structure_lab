@@ -1,0 +1,31 @@
+Start.
+
+2. Initialize front = rear = -1.
+
+3. For Insert Front:
+
+• If queue full, print "Overflow".
+
+• Else decrement front (circularly) and insert.
+
+4. For Insert Rear:
+
+• If full, print "Overflow".
+
+• Else increment rear and insert.
+
+5. For Delete Front:
+
+• If empty, print "Underflow".
+
+• Else increment front.
+
+6. For Delete Rear:
+
+• If empty, print "Underflow".
+
+• Else decrement rear.
+
+7. Display elements.
+
+8. Stop.
