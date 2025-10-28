@@ -1,0 +1,15 @@
+Start.
+
+2. Initialize an empty stack.
+
+3. Scan the postfix expression.
+
+4. If operand, push onto stack.
+
+5. If operator, popi o elements, perform operation, push result back.
+
+6. Continue until expression ends.
+
+7. Final stack element = result.
+
+8. Stop.
