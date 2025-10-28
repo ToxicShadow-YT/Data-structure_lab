@@ -1,0 +1,23 @@
+Start.
+
+2. Create node structure with data and next.
+
+3. For Insert at Beginning:
+
+• Create node, link to current head, update head.
+
+4. For Insert at End:
+
+• Traverse to last node, link new node.
+
+5. For Delete:
+
+• Locate node, adjust pointers, free node.
+
+6. For Display:
+
+Ο
+
+Traverse list and print data.
+
+7. Stop.
