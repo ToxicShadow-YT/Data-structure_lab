@@ -1,0 +1,17 @@
+Algorithm:
+
+1. Start.
+
+2. For each element from index 1 to n-1:
+
+• Store current element in key.
+
+• Compare key with previous elements.
+
+• Shift larger elements one position right.
+
+• Insert key in correct place.
+
+3. Repeat until array is sorted.
+
+4. Stop.
