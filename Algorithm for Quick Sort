@@ -1,0 +1,15 @@
+Algorithm:
+
+1. Start.
+
+2. Choose a pivot element.
+
+3. Partition array:
+
+• Move smaller elements left of pivot, larger to right.
+
+4. Recursively apply quick sort to left and right subarrays.
+
+5. Combine results to get sorted array.
+
+6. Stop.
