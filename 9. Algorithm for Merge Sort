@@ -1,0 +1,13 @@
+Algorithm:
+
+1. Start.
+
+2. Divide array into two halves.
+
+3. Recursively sort each half.
+
+4. Merge two sorted halves into one sorted array.
+
+5. Continue until all subarrays are merged.
+
+6. Stop.
