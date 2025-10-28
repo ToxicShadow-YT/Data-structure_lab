@@ -1,0 +1,19 @@
+Start.
+
+2. Input two matrices A and B in triplet form (row, column, value).
+
+3. Initialize i, j, k = 1.
+
+4. While i <= t1 and j <= t2:
+
+• If positions match, add values.
+
+• Else copy smaller element to result matrix.
+
+5. Copy remaining elements from A or B.
+
+6. Set header row with total non-zero count.
+
+7. Print the resultant sparse matrix.
+
+8. Stop.
