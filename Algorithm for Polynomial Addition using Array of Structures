@@ -1,0 +1,21 @@
+Start.
+
+Read the number of terms in polynomial A and B.
+
+3. Read each term as (coefficient, exponent).
+
+4. Initialize result polynomial C.
+
+5. Compare exponents of A and B:
+
+• If equal, add coefficients and store in C.
+
+• If A's exponent > B's exponent, copy term from A to C.
+
+• Else, copy term from B to C.
+
+6. Copy remaining terms from longer polynomial.
+
+7. Display the resultant polynomial.
+
+8. Stop.
