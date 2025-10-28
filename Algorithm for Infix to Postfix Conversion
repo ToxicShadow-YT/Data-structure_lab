@@ -1,0 +1,25 @@
+Start.
+
+2. Initialize an empty stack.
+
+3. Scan infix expression from left to right.
+
+4. If operand, add to output.
+
+5. If operator, pop h
+
+r precedence
+
+o output, then push
+
+operators from s
+
+current operator.
+
+6. If '(", push to stack.
+
+7. If ')', pop and output until '(' is found.
+
+8. After scanning, pop remaining operators to output.
+
+9. Stop.
