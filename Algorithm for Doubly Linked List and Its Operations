@@ -1,0 +1,27 @@
+Start.
+
+2. Create node with prev, data, next.
+
+3. For Insert at Beginning:
+
+• Set newnode → next = head.
+
+If head != NULL, set head → prev = newnode.
+
+Update head = newnode.
+
+4. For Insert at End:
+
+Traverse to last node, adjust both links.
+
+5. For Delete:
+
+If head node, update head and prev pointer.
+
+Else adjust next and prev pointers of neighbors.
+
+6. For Display (Forward/Backward):
+
+• Use next for forward and prev for backward tra
+
+7. Stop.
